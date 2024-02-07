@@ -90,7 +90,7 @@ class DNA:
         print(self.longest)
 
 
-DNA = DNA('rosalind_lcsm (2).txt')
+DNA = DNA('sample.txt')
 
 # sends the lengths of the first two elements of the DNA array to make the table as the longest substring can't be longer than the shortest elements
 arr = Table(len(DNA.strands[0]),len(DNA.strands[1]))

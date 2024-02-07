@@ -46,7 +46,7 @@ class DNA:
         with open(text_file, 'r') as text_file:
             lines = text_file.readlines()
             for DNA in lines:
-                if DNA.startswith('>Rosalind'):
+                if DNA.startswith('>'):
                     count +=1
                     DNA_strands.append('')
                 else:

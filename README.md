@@ -1,0 +1,3 @@
+Two solutions to finding the longest common shared motif between DNA strands. 
+Attempt 1: Utilizes looping and iterating over a DNA strand to make an array of all substrings from longest to shortest. Iterates over the array and compares the strings to all the DNA strands. If it is included in every DNA strand it is displayed.
+Attempt 2: Custom array and DNA objects. The DNA object holds all the strands of DNA in an array. The array is a suffix array built from the 2 shortest strands of DNA. From the suffix array the shared substrings between the 2 strands are found. From longest to shortest they are iterated over, and if a substring is found in all the other strands it is displayed.
